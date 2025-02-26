@@ -7,6 +7,6 @@ def genera_password(lunghezza=12):
     return password
 
 if __name__ == "__main__":
-    print("🔒 Generatore di Password Sicure 🔒")
+    print("Generatore di Password Sicure ")
     lunghezza = int(input("Inserisci la lunghezza della password: "))
-    print(f"✅ La tua password generata è: {genera_password(lunghezza)}")
+    print(f" La tua password generata è: {genera_password(lunghezza)}")
